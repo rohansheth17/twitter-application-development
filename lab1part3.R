@@ -8,14 +8,14 @@ library("maptools")
 gpclibPermit()
 library("maps")
 library("ggmap")
-register_google(key = "AIzaSyDuPOH5A6aona1B0ISgsmTiuKHgb_PEMyw") 
+register_google(key = "") 
 install.packages("revgeo", dependencies = TRUE)
 library('revgeo')
 library(twitteR)
-consumer_key <- '5ln7NEPebQZ76rzYWMoTFh4sz'
-consumer_secret <- 'wgMPx0axKj0sieNtCZOvxOXbWbI8UQpRqhPaB0ZIO7ATndqyQD'
-access_token <- '1098101509756211201-AZYJqdOKNQDmq8ATsEA6oUWXrjCiEd'
-access_secret <- 'zvrtWw6EHOByV9INUWFnzcw1XNGHQShijzqyZXApoYROo'
+consumer_key <- ''
+consumer_secret <- ''
+access_token <- ''
+access_secret <- ''
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 devtools::install_github("wmurphyrd/fiftystater")
 install.packages("mapproj")
