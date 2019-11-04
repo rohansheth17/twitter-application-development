@@ -1,0 +1,5 @@
+shiny::runApp()
+runApp()
+runApp()
+load("~/Lab1EDA/.RData")
+load("~/Lab1EDA/.RData")
