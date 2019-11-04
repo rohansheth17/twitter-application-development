@@ -20,12 +20,12 @@ library(dplyr)
 library('revgeo')
 library(twitteR)
 
-register_google(key = "AIzaSyCO0iWcOjTVVeshAjIcIQUw6DrgkdtK9Vo")
+register_google(key = "")
 
-consumer_key <- 'IDvMLdSYEaj68ZTTGlUI7E5b1'
-consumer_secret <- 'MctkDL4cq9SXF928L8tZBMpj8TeDmCoMIIvIDtJwxwnlL2DqE3'
-access_token <- '1062843121371897856-YH5hrzMNCMcaUcT5MkrUO1gH9gudMk'
-access_secret <- 'TBex7S6iJDmgPlkiadoQkMwnJNIXmNPO8UIZI4Qf123zS'
+consumer_key <- ''
+consumer_secret <- ''
+access_token <- ''
+access_secret <- ''
 
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 
